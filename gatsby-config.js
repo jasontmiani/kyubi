@@ -7,14 +7,14 @@ module.exports = {
     // You can overwrite values here that are used for the SEO component
     // You can also add new values here to query them like usual
     // See all options: https://github.com/LekoArts/gatsby-themes/blob/main/themes/gatsby-theme-jodie/gatsby-config.js
-    siteTitle: `Jodie`,
-    siteTitleAlt: `Jodie - Gatsby Starter Portfolio`,
-    siteHeadline: `Jodie - Gatsby Theme from @lekoarts`,
-    siteUrl: `https://jodie.lekoarts.de`,
-    siteDescription: `Image-heavy photography portfolio with colorful accents & customizable pages. Includes adaptive image grids powered by CSS grid and automatic image integration into projects.`,
+    siteTitle: `Kyubi the Cutie`,
+    siteTitleAlt: `Kyubi the Corgi`,
+    siteHeadline: `Kyubi the Corgi`,
+    siteUrl: `https://kyubi.gatsbyjs.io`,
+    siteDescription: `Kyubi's personal blog`,
     siteLanguage: `en`,
     siteImage: `/banner.jpg`,
-    author: `@lekoarts_de`,
+    author: `Jason Miani`,
   },
   plugins: [
     {
@@ -22,9 +22,9 @@ module.exports = {
       // See the theme's README for all available options
       options: {
         navigation: [
-          { name: `Projects`, slug: `/projects` },
-          { name: `Art`, slug: `/art` },
-          { name: `About`, slug: `/about` },
+          // { name: `Albums`, slug: `/projects` },
+          { name: `Photos`, slug: `/photos` },
+          { name: `Kyubi`, slug: `/kyubi-about` },
         ],
       },
     },
